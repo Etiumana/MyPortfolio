@@ -240,6 +240,7 @@ article {
     text-align: light;
     text-decoration: none;
 }
+
 .contact h3{
     text-decoration: none;
     color: white;
@@ -278,14 +279,13 @@ article {
     place-content: center;
     margin-top: 50px;
     margin-bottom:none;
-    /* border: 1px solid red; */
 }
+
 .section5 h3 {
     font-size: 60px;
     text-align: center;
     color:rgb(48 48 48);
     font-weight: 300;
-    
 }
 
 input[name='fullname']{
@@ -378,9 +378,7 @@ footer {
     font-size: 14px;
 }
 
-
-/* //transform translate; */
-
+/* SOME MEDIA QUERY-CAN BE EXPAND TO FIT MORE SCREEN SIZES */
 @media screen and (max-width: 1024px) {
     
     header{
@@ -398,22 +396,25 @@ footer {
         place-items: left;
         justify-content: left;
     }
+
     .landing{
         width:400px;
-        /* border: blue 1px solid; */
     } 
 
     .section2 h2{
         margin-left: 0;
     }
+
     .whole-box{
         flex-wrap: wrap;
     }
+
     .each-box{
         width:400px;
         margin-left: 0;
         padding-left: 0;
     }
+
     .whole-box{
         margin-left: 5px;
     }
@@ -425,44 +426,54 @@ footer {
     .work ul{
         justify-content: left;
     }
+
     .live-link-section{
         display:flex;
         flex-wrap: flex;
         flex-direction: column;
     }
+
     article {
         height:700px;
     }
+
     .flex-box{
         flex-direction: column;
         height:800px;
     }
+
     .my-info .skills{
         height: 250px;
         width: 700px;
     }
+
     .this-is-me{
         justify-content: left;
         margin-left: 5px;
         width:400px;
     }
+
     .follow-me{
         flex-direction: column;
         margin-bottom: 25px;
     }
+
     .section5{
         justify-content: left;
     }
+
     .section5 h3{
         text-align: left;
         margin-left:10px;
         font-size: 40px;
     }
+
     .section5 form{
         width:400px;
         margin-left: 5px;
         justify-content: left;
     }
+
     footer{
         text-align: left;
     }
