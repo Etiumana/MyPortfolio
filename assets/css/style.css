@@ -46,7 +46,7 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:visited {
 .section1 {
     width: 100%;
     height: 800px;
-    background-image: url(/assets/images/landing-new.PNG);
+    background-image: url(assets/images/landing-new.PNG);
     /* background-size: cover; */
     display: grid;
     place-items:center;
@@ -192,7 +192,7 @@ article {
 .section4 {
     height:920px;
     /* border: 1px red solid; */
-    background-image: url(/assets/images/profile-photo2.PNG);
+    background-image: url(assets/images/profile-photo2.PNG);
     background-image: sticky;
     display: flex;
     flex-direction: column;
