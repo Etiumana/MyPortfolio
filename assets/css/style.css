@@ -57,7 +57,6 @@ nav ul li a:hover, nav ul li a:active, nav ul li a:visited {
     width: 900px;
     height: 300px;
     text-align: center;
-    /* border: 1px solid black; */
 }
 
 .landing h1{
@@ -105,6 +104,11 @@ button a{
     padding:50px;
     text-align: center;
 }
+
+.each-box:hover {
+    border:#eb5424 solid 1px;
+}
+
 .whole-box {
     display:flex;
     gap: 30px;
@@ -159,7 +163,7 @@ article {
 .flex-box{
     display: flex;
     width: 1100px;
-    border: green solid 1px;
+    /* border: green solid 1px; */
     margin: auto;
     height:360px;
     gap:50px;
