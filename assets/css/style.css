@@ -196,7 +196,7 @@ article {
 .section4 {
     height:920px;
     /* border: 1px red solid; */
-    background-image: url(/assets/images/profile-photo2.png);
+    background-image: url(/assets/images/profile-photo2.PNG);
     background-image: sticky;
     display: flex;
     flex-direction: column;
